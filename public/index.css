@@ -1,0 +1,41 @@
+body {
+  background-color: #eeeeee;
+  font-size: 35px;
+  margin: 0;
+  padding: 0;
+}
+
+.articulos {
+  background-color: white;
+}
+
+.categorias {
+  width: 90%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.computadoras {
+}
+.celulares {
+}
+.tv {
+}
+
+#articulos {
+  background-color: white;
+}
+#barra-logo {
+  height: 550px;
+  background-color: yellow;
+}
+
+#formasdepago {
+  width: 80%;
+  margin: 30px;
+  background-color: white;
+}
+.mediodepago {
+  width: 23%;
+}
