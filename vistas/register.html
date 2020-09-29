@@ -5,23 +5,21 @@
   <meta charset="=UTF-8">
   <title>Document</title>
   <meta name="viewport" content="device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="register.css">
+  <link rel="stylesheet" href="vistas/register.css">
 </head>
 
 <body>
+  <section id="logo">
+    <div id="barra-logo">
+      <img width="200px" height="80px" src="imagenes/logo-mercado-liebre.svg" alt="Logo MercadoLiebre">
+      <div class="buscador">
+        <label for="buscador"></label>
+        <input type="text" id="buscador" name="buscador" placeholder="Buscar productos y marceas"></div>
+      <div>Comprá en cuotas y sin tarjeta de crédito</div>
 
-  <div id="barra-logo">
-    <img src="/imagenes/logo-mercado-liebre.svg">
-    <div class="buscador">
-      <label for="buscador"></label>
-      <input type="text" id="buscador" name="buscador" placeholder="Buscar productos y marceas"></div>
-    <div>Comprá en cuotas y sin tarjeta de crédito</div>
-    <div><img
-        src="https://http2.mlstatic.com/resources/deals/exhibitors_resources/mla-menu-desktop-notification-picture-52b026dd-9270-4c0f-8b85-a7526d0b3a63.png">
+
     </div>
-
-  </div>
-
+  </section>
 
 
 
@@ -37,32 +35,35 @@
     <input type="checkbox" name="categorias" value="otros">Otros
 
 
-    <p>Crea tu cuenta</p>
-    <form action="register.html" method="get">
-      <p>
-        <label for="nombre">Nombre y Apellido</label>
-        <input type="text" name="nombre y apellido" id="nombre y apellido">
-      </p>
-      <p>
-        <label for="usuario">Nombre de Usuario</label>
-        <input type="text" name="usuario" id="usuario">
-      </p>
+    <section id="Crea-cuenta">
+      <form action="register.html" method="get">
+        <p>
+          <label for="nombre">Nombre y Apellido</label>
+          <input type="text" name="nombre y apellido" id="nombre y apellido">
+        </p>
+        <p>
+          <label for="usuario">Nombre de Usuario</label>
+          <input type="text" name="usuario" id="usuario">
+        </p>
 
 
-      <p>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-      </p>
+        <p>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </p>
 
-      <p>
-        <label for="fecha nacimiento">Fecha de Nacimiento</label>
-        <input type="date" name="date" id="date">
-      </p>
-      <p>
-        <label for="domicilio">Domicilio</label>
-        <input type="text" name="domicilio" id="domicilio">
-      </p>
+        <p>
+          <label for="fecha nacimiento">Fecha de Nacimiento</label>
+          <input type="date" name="date" id="date">
+        </p>
+        <p>
+          <label for="domicilio">Domicilio</label>
+          <input type="text" name="domicilio" id="domicilio">
+        </p>
+      </form>
+    </section>
 
+    <section id="Perfil-usuario">
       <p><label for="">Perfil de Usuario</label></p>
       <p><input type="comprador" name="comprador" value="">Comprador</p>
       <p><input type="vendedor" name="vendedor" value="">Vendedor</p>
@@ -76,11 +77,11 @@
         <input type="password" name="password" id="password">
       </p>
 
-      <p><input type="submit" value="Enviar"></p>
-      <p><input type="submit" value="Borrar"></p>
+      <p><input class="boton" type="submit" value="Enviar"></p>
+      <p><input class="boton" type="submit" value="Borrar"></p>
 
 
-    </form>
+    </section>
 
 
 

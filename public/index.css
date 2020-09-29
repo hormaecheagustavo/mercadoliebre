@@ -1,41 +1,70 @@
 body {
-  background-color: #eeeeee;
-  font-size: 35px;
+  font-size: 16px;
   margin: 0;
   padding: 0;
+  font-family: "roboto";
+  background-color: #ebebeb;
+}
+#navegation {
+  height: 100px;
+  background: #eac926;
+}
+#contenido-central {
+  width: 80%;
+  margin: 0 auto;
 }
 
-.articulos {
+#medios-depago {
   background-color: white;
+  height: 100px;
+  margin: 22px;
 }
 
-.categorias {
-  width: 90%;
-  background-color: white;
+#medios-depago .medios-depago-info {
+  width: 25%;
+  display: inline-block;
+}
+
+.fuentetruck {
+  font-size: 50px;
+}
+.hamburger {
+  font-size: 100px;
+  background-color: black;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  justify-content: centers;
 }
-.computadoras {
+#navegation .navegation-logo {
+  background: yellow;
 }
-.celulares {
+.precios {
+  font-size: 18px;
 }
-.tv {
+.descuentos {
+  font-size: 16px;
 }
-
-#articulos {
-  background-color: white;
+.descripcion {
+  font-size: 16px;
 }
-#barra-logo {
-  height: 550px;
-  background-color: yellow;
+p {
+  font-size: 12px;
 }
-
-#formasdepago {
-  width: 80%;
+b {
+  font-size: 24px;
+}
+p b {
+  font-size: 24px;
+}
+#articulos .categorias {
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border: solid 3px gray;
   margin: 30px;
+  box-sizing: border-box;
   background-color: white;
 }
-.mediodepago {
-  width: 23%;
+.d-flex {
+  display: flex;
 }

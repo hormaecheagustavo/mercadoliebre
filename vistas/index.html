@@ -1,136 +1,146 @@
 <!DOCTYPE html>
 <html lang="es-AR">
 
+
+
 <head>
   <meta charset="=UTF-8">
   <title>Document</title>
-  <meta name="viewport" content="device-width, initial-scale=1.0">
+  <meta name="viewport" content="device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <div id="barra-logo">
-    <img src="/imagenes/logo-mercado-liebre.svg">
-    <div class="buscador">
-      <label for="buscador"></label>
-      <input type="text" id="buscador" name="buscador" placeholder="Buscar productos y marceas"></div>
-    <div>Comprá en cuotas y sin tarjeta de crédito</div>
-    <div><img
-        src="https://http2.mlstatic.com/resources/deals/exhibitors_resources/mla-menu-desktop-notification-picture-52b026dd-9270-4c0f-8b85-a7526d0b3a63.png">
+  <nav id="d-flex navegation">
+
+    <div class="navegation-logo">
+      <img width=" " height=" " src="imagenes/logo-mercado-liebre.svg" alt="Logo MercadoLiebre">
+      <form action="index.html" method="GET">
+        <label for="buscador"></label>
+        <input type="text" id="buscador" name="buscador" placeholder="Buscar productos y marcas">
+    </div>
+    </form>
+    <p><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjeta de credito</p>
+
+    <i class="fas fa-align-justify"></i>
     </div>
 
+    <div>
+      <a href="/">Ofertas</a>
+      <a href="/">Tiendas Oficiales</a>
+      <a href="/">Vender</a>
+      <a href="/">Ayuda</a>
+      <a href="/register">Crea tu cuenta</a><i class="far fa-id-card"></i>
+      <a href="/">Ingresa</a><i class="fas fa-sign-in-alt"></i>
+      <a href="/">Mis compras</a><i class="fas fa-shopping-basket"></i>
+    </div>
+  </nav>
+
+
+  <div id="banner">
+    <img width="710px" src="/imagenes/img-home-banner.jpg" width=1000px>
   </div>
 
+  <section id="contenido-central">
 
-  <div id="informaciones">
-    <p><label for="">Categorias:</label>
-      <select name=" " id "">
-        <option value="Veh">Vehiculos</option>
-        <option value="Inm">Inmuebles</option>
-        <option value="Tec">Tecnologia</option>
-        <option value="HgEle">Hogar y Electrodomesticos</option>
-        <option value="Dep">Deportes</option>
-        <option value="Lib">Libros</option>
-        <oivption value="Acc">Accesorios</option>
-          <option value="Mod">Moda</option>
-          <option value="Otr">Otros</option>
-      </select></p>
-    <p><a href="Ofertas">Ofertas</a></p>
-    <p><a href="Tiendas Oficiales">Tiendas Oficiales</a></p>
-    <p><a href="Vender">Vender</a></p>
-    <p><a href="Ayuda">Ayuda</a></p>
-    <p><a href="Crea tu cuenta">Crea tu cuenta</a></p>
-    <p><a href="Ingresa a mis Compras">Ingresa a mis Compras</a></p>
-  </div>
-  <img src="/imagenes/img-home-banner.jpg">
+    <div id="medios-depago">
 
+      <div class="medios-depago-info">
+        <span><img
+            src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/credit-card.svg">
+          Tarjeta de Credito</span>
+      </div>
 
-  <div id="formasdepago">
-    <p>
-    <div class="mediodepago">
-      <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/credit-card.svg">
-      Tarjeta
-      de Credito
+      <div class="medios-depago-info">
+        <span></span><img
+          src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/debit-card.svg">
+        Tarjeta de Debito</span>
+      </div>
+
+      <div class="medios-depago-info">
+        <span><img
+            src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/payment-agreement.svg">
+          Efectivo</span>
+      </div>
+
+      <div class="medios-depago-info">
+        <span><img
+            src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/view-more.svg">
+          Mas medios de pagos</span>
+      </div>
+
     </div>
-    <div class="mediodepago">
-      <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/debit-card.svg">
-      Tarjeta
-      de Debito
+
+
+
+    <h3>
+      <b>PRODUCTOS</b>
+    </h3>
+    <p>Basados en las ultimas visitas</p>
+    <p><b>Ofertas</b></p>
+
+    <article id="articulos">
+      <div class="categorias">
+        <img class="articulo-categorias" src="/imagenes/img-cafetera-moulinex.jpg">
+        <p><i class="fas fa-truck"></i></p>
+        <p class="descripcion">Cafetera Moulinex</p>
+        <p class="precio">$6.770</p>
+        <p class="descuento">40% OFF</p>
+      </div>
+
+      <div class="categorias">
+        <img class="articulo-categorias" src="/imagenes/img-macbook-pro-2019.jpg">
+        <p><i class="fas fa-truck"></i></p>
+        <p class="descripcion">Macbook Pro 2019.</p>
+        <p class="precio">$230.000</p>
+        <p class="descuento">20% OFF</p>
+      </div>
+
+      <div class="categorias">
+        <img class="articulo-categorias" src="/imagenes/img-samsung-galaxy-s10.jpg">
+        <p><i class="fas fa-truck"></i></p>
+        <p class="descripcion">Teléfono móvil Samsung Galaxy S10.</p>
+        <p class="precio">$70.500</p>
+        <p class="descuento">15% OFF</p>
+      </div>
+
+      <div class="categorias">
+        <img class="articulo-categorias" src="/imagenes/img-tv-samsung-smart.jpg">
+        <p><i class="fas fa-truck"></i></p>
+        <p class="descripcion">SmartTv Samsung 43".</p>
+        <p class="precio">$34.000</p>
+        <p class="descuento">5% OFF</p>
+      </div>
+    </article>
     </div>
-    <div class="mediodepago">
-      <img
-        src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/payment-agreement.svg">
-      Efectivo
-    </div>
-    <div class="mediodepago">
-      <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/payments/view-more.svg">
-      Mas
-      medios de pagos
-    </div>
-    </p>
 
-  </div>
 
-  <h3>
-    <b>PRODUCTOS</b>
-  </h3>
-  <p>Basados en las ultimas visitas</p>
-  <p><b>Ofertas</b></p>
-  <section id="articulos">
-    <article class="categorias">
-      <img src="/imagenes/img-cafetera-moulinex.jpg">
-      <i class="fas fa-bars"></i>
-      <p class="descripcion">Cafetera Moulinex</p>
+    <footer class=piedepagina>
 
-      <p class="precio">$6.770</p>
-      <p class="descuento">40% OFF</p>
+      <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/payment.svg">
+      <p><b>Pagá con tarjeta o en efectivo</b></p>
 
-    </article>
+      <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre
+        es seguro!</p>
 
-    <article class="categorias">
-      <img src="/imagenes/img-macbook-pro-2019.jpg">
-      <i class="fas fa-bars"></i>
-      <p class="descripcion">Macbook Pro 2019.</p>
-      <p class="precio">$230.000</p>
-      <p class="descuento">20% OFF</p>
+      <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/shipping.svg">
 
-    </article>
+      <p><b>Envio gratis desde los $2.500</b></p>
 
-    <article class="categorias">
-      <img src="/imagenes/img-samsung-galaxy-s10.jpg">
-      <i class="fas fa-bars"></i>
-      <p class="descripcion">Teléfono móvil Samsung Galaxy S10.</p>
-      <p class="precio">$70.500</p>
-      <p class="descuento">15% OFF</p>
+      <p>Solo por estar registrado en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de
+        MercadoPuntos.</p>
 
-    </article>
+      <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/protected.svg">
 
-    <article class="categorias">
-      <img src="/imagenes/img-tv-samsung-smart.jpg">
-      <i class="fas fa-bars"></i>
-      <p class="descripcion">SmartTv Samsung 43".</p>
-      <p class="precio">$34.000</p>
-      <p class="descuento">5% OFF</p>
+      <p><b>Seguridad de principio a fin</b></p>
 
-    </article>
+      <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre prtegido.</p>
+
+      <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
+
+    </footer>
   </section>
-  </div>
-  <footer class=piedepagina>
-    <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/payment.svg">
-    <p><b>Pagá con tarjeta o en efectivo</b></p>
-    <p>Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre
-      es seguro!
-    </p>
-    <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/shipping.svg">
-    <p><b>Envio gratis desde los $2.500</b></p>
-    <p>Solo por estar registrado en MercadoLiebre tenés envíos gratis en miles de productos. Es un beneficio de
-      MercadoPuntos.</p>
-    <img src="https://http2.mlstatic.com/resources/frontend/homes-korriban/assets/images/ecosystem/protected.svg">
-    <p><b>Seguridad de principio a fin</b></p>
-    <p>¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer porque estás siempre prtegido.</p>
-    <p>Copyright © 1999-2019 MercadoLiebre S.R.L.</p>
-
-  </footer>
 
 </body>
 

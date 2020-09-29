@@ -1,0 +1,22 @@
+.boton {
+  width: 400px;
+  height: 30px;
+  background-color: deepskyblue;
+}
+#Crea-cuenta {
+  background-color: bisque;
+  width: 90%;
+  margin: 5px;
+}
+#perfil-usuario {
+  background-color: bisque;
+  width: 90%;
+  margin: 5px;
+}
+#perfil-usuario .boton {
+  width: 350px;
+  height: 25px;
+}
+#logo {
+  background: yellow;
+}
